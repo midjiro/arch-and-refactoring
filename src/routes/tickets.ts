@@ -4,7 +4,6 @@ import {
   OrdinaryBookingStrategy,
   VipBookingStrategy,
 } from '../strategies/booking';
-import WebSocket from 'ws';
 import { Ticket } from '../models/tickets';
 import { IUserDocument } from '../models/user';
 import { WsAdapter } from '../adapters/notifier';

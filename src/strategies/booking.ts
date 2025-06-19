@@ -1,4 +1,4 @@
-import { Ticket, ITicket } from '../models/tickets';
+import { ITicket } from '../models/tickets';
 import { IUserDocument } from '../models/user';
 
 export interface BookingStrategy {
